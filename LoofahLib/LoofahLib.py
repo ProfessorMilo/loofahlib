@@ -44,8 +44,6 @@ def playloop(sound, repeat=1):
     for _ in range(repeat):
         playsound(sound)
 
-def chance(percent):
-    return random.random() <percent/100
 
 # Code to test out the new functions:
 

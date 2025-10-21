@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: LoofahLib
+Version: 0.1.1
+Summary: A massive library of everything I might need for a game
+Requires-Dist: pygame
+Requires-Dist: playsound
+Requires-Dist: requests
+Requires-Dist: Pillow
+Dynamic: requires-dist
+Dynamic: summary
