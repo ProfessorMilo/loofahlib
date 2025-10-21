@@ -15,6 +15,31 @@ import pygame
 import json
 import os
 from playsound import playsound
+import shutil
+import pathlib
+import decimal
+import fractions
+import datetime
+import calendar
+import pickle
+import csv
+import collections
+import itertools
+import socket
+import requests
+import urllib
+import sys
+import logging
+import traceback
+import tkinter
+import PIL
+import functools
+import operator
+import re
+import string
+import uuid
+import copy
+
 
 def pause(seconds=1):
     time.sleep(seconds)
@@ -44,6 +69,8 @@ def playloop(sound, repeat=1):
     for _ in range(repeat):
         playsound(sound)
 
+def chance(percent):
+    return random.random() <percent/100
 
 # Code to test out the new functions:
 

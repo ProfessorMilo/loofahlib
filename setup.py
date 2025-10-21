@@ -8,7 +8,7 @@ setup(
         "pygame",
         "playsound",
         "requests",
-        "Pillow",
+        "pillow",
     ],
     description="A massive library of everything I might need for a game",
 )
