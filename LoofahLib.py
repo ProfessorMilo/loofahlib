@@ -45,7 +45,8 @@ def playloop(sound, repeat=1):
         playsound(sound)
 
 
+# Code to test out the new functions:
 
-pause(roll(1,5))
-save(r"C:\Users\mabre\OneDrive\Desktop\code folder\python\custommodulesyayyyy\save.json", "hello there")
-say("Successfully loaded save, contains data:" + str(load(r"C:\Users\mabre\OneDrive\Desktop\code folder\python\custommodulesyayyyy\save.json")))
+# pause(roll(1,5))
+# save(r"C:\Users\mabre\OneDrive\Desktop\code folder\python\custommodulesyayyyy\save.json", "hello there")
+# say("Successfully loaded save, contains data:" + str(load(r"C:\Users\mabre\OneDrive\Desktop\code folder\python\custommodulesyayyyy\save.json")))
